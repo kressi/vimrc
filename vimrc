@@ -3,6 +3,7 @@
 " https://dougblack.io/words/a-good-vimrc.html        "
 "                                                     "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""
+execute pathogen#infect()
 
 "
 " Colors
