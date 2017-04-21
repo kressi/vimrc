@@ -14,7 +14,8 @@ syntax enable
 " Spaces & Tabs
 "
 set tabstop=4                 " number of visual spaces per tab
-set expandtab
+set expandtab                 " don't use actual tab character
+set autoindent
 
 "
 " UI Config
