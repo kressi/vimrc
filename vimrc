@@ -6,34 +6,42 @@
 execute pathogen#infect()
 
 " Colors {{{
-    syntax enable
+syntax enable
 " }}}
 
 " Spaces & Tabs {{{
-    set tabstop=4                 " Number of visual spaces per tab
-    set shiftwidth=4              " Indents will have a width of 4
-    set expandtab                 " Don't use actual tab character
-    set autoindent
+set tabstop=4                 " Number of visual spaces per tab
+set shiftwidth=4              " Indents will have a width of 4
+set expandtab                 " Don't use actual tab character
+set autoindent
 " }}}
 
 " UI Config {{{
-    set number                    " Show line numbers
-    set cursorline                " Highlight current line
-    set wildmenu                  " Visual autocomplete for command menu
+set number                    " Show line numbers
+set cursorline                " Highlight current line
+set wildmenu                  " Visual autocomplete for command menu
 " }}}
 
 " Searching {{{
-    set incsearch                 " Search as characters are entered
+set incsearch                 " Search as characters are entered
 " }}}
 
 " Folding {{{
-    set foldenable                " Enable folding
-    set foldmethod=indent         " Lines with equal indent form a fold
-    set foldlevelstart=10         " open most folds by default
+set foldenable                " Enable folding
+set foldmethod=marker         " Lines with equal indent form a fold
+set foldlevelstart=10         " open most folds by default
 " }}}
 
 " delimitMate {{{
-    let delimitMate_expand_cr = 1 " Expand newline inside braces/brackets
-                                  " http://stackoverflow.com/a/30512569
+let delimitMate_expand_cr = 1 " Expand newline inside braces/brackets
+                              " http://stackoverflow.com/a/30512569
+" }}}
+
+" Key maps {{{
+" Easy window navigation
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
 " }}}
 
