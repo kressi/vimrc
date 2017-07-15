@@ -37,6 +37,11 @@ let delimitMate_expand_cr = 1 " Expand newline inside braces/brackets
                               " http://stackoverflow.com/a/30512569
 " }}}
 
+" scala {{{
+" Enable Scaladoc comment indentation
+let g:scala_scaladoc_indent = 1
+" }}}
+
 " Key maps {{{
 " Easy window navigation
 map <C-h> <C-w>h
